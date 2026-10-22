@@ -9,6 +9,6 @@ namespace TiendaApp.Models
         public decimal Precio { get; set; }
         public int CategoriaId { get; set; }
         // Propiedades de navegación
-        public virtual Categoria Categorias { get; set; } = null!;
+        public virtual Categoria Categoria { get; set; } = null!;
     }
 }
